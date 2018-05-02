@@ -74,7 +74,7 @@ void CSMain (uint3 id : SV_DispatchThreadID)
 
 	boid.rot = lerp(boid.rot, normalize(direction), deltaTime * 4);
 
-	boid.pos += boid.rot * boid.speed * deltaTime;
+    boid.pos += boid.rot * boid.speed * distance(boid.pos, boid.flockPos) * deltaTime;
 
 	boidBuffer[id.x] = boid;
 }

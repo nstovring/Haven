@@ -16,6 +16,9 @@ public class RandomCueManager : MonoBehaviour
         
         public void Register(RandomCuePlayer player)
         {
+            if(m_players == null)
+                m_players = new List<RandomCuePlayer>();
+
             if (!m_players.Contains(player))
                 m_players.Add(player);
         }
@@ -81,13 +84,17 @@ public class RandomCueManager : MonoBehaviour
 
     public GameObject m_ListenerObject;
 
-    void OnEnable()
+    void Start()
     {
         manager.Initialize();
     }
 
     void Update()
     {
+        if(m_ListenerObject == null)
+        {
+            m_ListenerObject = GameObject.FindGameObjectWithTag("Player");
+        }
         manager.Update(m_ListenerObject.transform.position);
     }
 

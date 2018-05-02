@@ -1,0 +1,1961 @@
+fileFormatVersion: 2
+guid: 58180877df4809648a78382e30f6d4f9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AI31_010_00
+    100002: AI31_010_01
+    100004: AI31_010_02
+    100006: AI31_010_03
+    100008: AI31_010_04
+    100010: AI31_010_05
+    100012: AI31_010_06
+    100014: AI31_010_07
+    100016: AI31_010_08
+    100018: AI31_010_09
+    100020: AI31_010_10
+    100022: AI31_010_100
+    100024: AI31_010_101
+    100026: AI31_010_102
+    100028: AI31_010_103
+    100030: AI31_010_104
+    100032: AI31_010_105
+    100034: AI31_010_106
+    100036: AI31_010_107
+    100038: AI31_010_108
+    100040: AI31_010_109
+    100042: AI31_010_11
+    100044: AI31_010_110
+    100046: AI31_010_111
+    100048: AI31_010_112
+    100050: AI31_010_113
+    100052: AI31_010_114
+    100054: AI31_010_115
+    100056: AI31_010_116
+    100058: AI31_010_117
+    100060: AI31_010_118
+    100062: AI31_010_119
+    100064: AI31_010_12
+    100066: AI31_010_120
+    100068: AI31_010_121
+    100070: AI31_010_122
+    100072: AI31_010_13
+    100074: AI31_010_14
+    100076: AI31_010_15
+    100078: AI31_010_16
+    100080: AI31_010_17
+    100082: AI31_010_18
+    100084: AI31_010_19
+    100086: AI31_010_20
+    100088: AI31_010_21
+    100090: AI31_010_22
+    100092: AI31_010_23
+    100094: AI31_010_24
+    100096: AI31_010_25
+    100098: AI31_010_26
+    100100: AI31_010_27
+    100102: AI31_010_28
+    100104: AI31_010_29
+    100106: AI31_010_30
+    100108: AI31_010_31
+    100110: AI31_010_32
+    100112: AI31_010_33
+    100114: AI31_010_34
+    100116: AI31_010_35
+    100118: AI31_010_36
+    100120: AI31_010_37
+    100122: AI31_010_38
+    100124: AI31_010_39
+    100126: AI31_010_40
+    100128: AI31_010_41
+    100130: AI31_010_42
+    100132: AI31_010_43
+    100134: AI31_010_44
+    100136: AI31_010_45
+    100138: AI31_010_46
+    100140: AI31_010_47
+    100142: AI31_010_48
+    100144: AI31_010_49
+    100146: AI31_010_50
+    100148: AI31_010_51
+    100150: AI31_010_52
+    100152: AI31_010_53
+    100154: AI31_010_54
+    100156: AI31_010_55
+    100158: AI31_010_56
+    100160: AI31_010_57
+    100162: AI31_010_58
+    100164: AI31_010_59
+    100166: AI31_010_60
+    100168: AI31_010_61
+    100170: AI31_010_62
+    100172: AI31_010_63
+    100174: AI31_010_64
+    100176: AI31_010_65
+    100178: AI31_010_66
+    100180: AI31_010_67
+    100182: AI31_010_68
+    100184: AI31_010_69
+    100186: AI31_010_70
+    100188: AI31_010_71
+    100190: AI31_010_72
+    100192: AI31_010_73
+    100194: AI31_010_74
+    100196: AI31_010_75
+    100198: AI31_010_76
+    100200: AI31_010_77
+    100202: AI31_010_78
+    100204: AI31_010_79
+    100206: AI31_010_80
+    100208: AI31_010_81
+    100210: AI31_010_82
+    100212: AI31_010_83
+    100214: AI31_010_84
+    100216: AI31_010_85
+    100218: AI31_010_86
+    100220: AI31_010_87
+    100222: AI31_010_88
+    100224: AI31_010_89
+    100226: AI31_010_90
+    100228: AI31_010_91
+    100230: AI31_010_92
+    100232: AI31_010_93
+    100234: AI31_010_94
+    100236: AI31_010_95
+    100238: AI31_010_96
+    100240: AI31_010_97
+    100242: AI31_010_98
+    100244: AI31_010_99
+    100246: drzwi
+    100248: flash
+    100250: flash001
+    100252: okno
+    100254: okno2
+    100256: //RootNode
+    100258: przod_back
+    100260: Spot001
+    100262: Spot001.Target
+    100264: srodek
+    100266: VRayPhysicalCamera001
+    100268: VRayPhysicalCamera001.Target
+    100270: VRaySun001
+    100272: VRaySun001.Target
+    100274: w
+    100276: w001
+    100278: w002
+    100280: w003
+    400000: AI31_010_00
+    400002: AI31_010_01
+    400004: AI31_010_02
+    400006: AI31_010_03
+    400008: AI31_010_04
+    400010: AI31_010_05
+    400012: AI31_010_06
+    400014: AI31_010_07
+    400016: AI31_010_08
+    400018: AI31_010_09
+    400020: AI31_010_10
+    400022: AI31_010_100
+    400024: AI31_010_101
+    400026: AI31_010_102
+    400028: AI31_010_103
+    400030: AI31_010_104
+    400032: AI31_010_105
+    400034: AI31_010_106
+    400036: AI31_010_107
+    400038: AI31_010_108
+    400040: AI31_010_109
+    400042: AI31_010_11
+    400044: AI31_010_110
+    400046: AI31_010_111
+    400048: AI31_010_112
+    400050: AI31_010_113
+    400052: AI31_010_114
+    400054: AI31_010_115
+    400056: AI31_010_116
+    400058: AI31_010_117
+    400060: AI31_010_118
+    400062: AI31_010_119
+    400064: AI31_010_12
+    400066: AI31_010_120
+    400068: AI31_010_121
+    400070: AI31_010_122
+    400072: AI31_010_13
+    400074: AI31_010_14
+    400076: AI31_010_15
+    400078: AI31_010_16
+    400080: AI31_010_17
+    400082: AI31_010_18
+    400084: AI31_010_19
+    400086: AI31_010_20
+    400088: AI31_010_21
+    400090: AI31_010_22
+    400092: AI31_010_23
+    400094: AI31_010_24
+    400096: AI31_010_25
+    400098: AI31_010_26
+    400100: AI31_010_27
+    400102: AI31_010_28
+    400104: AI31_010_29
+    400106: AI31_010_30
+    400108: AI31_010_31
+    400110: AI31_010_32
+    400112: AI31_010_33
+    400114: AI31_010_34
+    400116: AI31_010_35
+    400118: AI31_010_36
+    400120: AI31_010_37
+    400122: AI31_010_38
+    400124: AI31_010_39
+    400126: AI31_010_40
+    400128: AI31_010_41
+    400130: AI31_010_42
+    400132: AI31_010_43
+    400134: AI31_010_44
+    400136: AI31_010_45
+    400138: AI31_010_46
+    400140: AI31_010_47
+    400142: AI31_010_48
+    400144: AI31_010_49
+    400146: AI31_010_50
+    400148: AI31_010_51
+    400150: AI31_010_52
+    400152: AI31_010_53
+    400154: AI31_010_54
+    400156: AI31_010_55
+    400158: AI31_010_56
+    400160: AI31_010_57
+    400162: AI31_010_58
+    400164: AI31_010_59
+    400166: AI31_010_60
+    400168: AI31_010_61
+    400170: AI31_010_62
+    400172: AI31_010_63
+    400174: AI31_010_64
+    400176: AI31_010_65
+    400178: AI31_010_66
+    400180: AI31_010_67
+    400182: AI31_010_68
+    400184: AI31_010_69
+    400186: AI31_010_70
+    400188: AI31_010_71
+    400190: AI31_010_72
+    400192: AI31_010_73
+    400194: AI31_010_74
+    400196: AI31_010_75
+    400198: AI31_010_76
+    400200: AI31_010_77
+    400202: AI31_010_78
+    400204: AI31_010_79
+    400206: AI31_010_80
+    400208: AI31_010_81
+    400210: AI31_010_82
+    400212: AI31_010_83
+    400214: AI31_010_84
+    400216: AI31_010_85
+    400218: AI31_010_86
+    400220: AI31_010_87
+    400222: AI31_010_88
+    400224: AI31_010_89
+    400226: AI31_010_90
+    400228: AI31_010_91
+    400230: AI31_010_92
+    400232: AI31_010_93
+    400234: AI31_010_94
+    400236: AI31_010_95
+    400238: AI31_010_96
+    400240: AI31_010_97
+    400242: AI31_010_98
+    400244: AI31_010_99
+    400246: drzwi
+    400248: flash
+    400250: flash001
+    400252: okno
+    400254: okno2
+    400256: //RootNode
+    400258: przod_back
+    400260: Spot001
+    400262: Spot001.Target
+    400264: srodek
+    400266: VRayPhysicalCamera001
+    400268: VRayPhysicalCamera001.Target
+    400270: VRaySun001
+    400272: VRaySun001.Target
+    400274: w
+    400276: w001
+    400278: w002
+    400280: w003
+    2100000: AM31_010_bar_dark
+    2100002: AM31_010_wall_orange
+    2100004: AM31_010_wall_marble_02
+    2100006: AM31_010_door_white
+    2100008: AM31_010_wall_yellow
+    2100010: AI31_010_floor_001
+    2100012: AM31_010_wall_mirror
+    2100014: AM31_010_wall_celling_blue
+    2100016: AM31_010_floor_tiles_white
+    2100018: AM31_010_window_glass
+    2100020: AM31_010_floor_tiles_blue
+    2100022: AM31_010_door_dark_glass
+    2100024: AI31_010_plasters
+    2100026: AM31_010_wall_mural_blue
+    2100028: AM31_010_wall_ornament_03
+    2100030: AM31_010_wall_ornament_02
+    2100032: AM31_010_wall_red
+    2100034: AM31_010_white_wood
+    2100036: Material_010
+    2100038: AM31_010_stairs_marble
+    2100040: AM31_010_stairs_white_marble
+    2100042: AM31_010_stairs_wood
+    2100044: AM31_010_wall_ornament_gold
+    2100046: AM31_010_wall_black
+    2100048: AM31_010_wall_ornament_01
+    2100050: AM31_010_upperfloor_ceeling
+    2100052: AM31_010_bar_lightwood
+    2100054: AI31_010_bar_chair_00
+    2100056: AI31_010_bar_gold_rail
+    2100058: AM31_010_gold
+    2100060: AI31_010_bar_mirror
+    2100062: AI31_010_bar_black_box
+    2100064: AI31_010_bar_ball_liqiud
+    2100066: AI31_010_bar_ball_glass
+    2100068: AI31_010_bar_wood
+    2100070: AI31_010_carpet_02
+    2100072: AI31_010_figure
+    2100074: AI31_010_bar_wine_glass
+    2100076: AI31_010_boxes_outside
+    2100078: AI31_010_carpet_01
+    2100080: AI31_010_vase
+    2100082: AI31_010_vase_03
+    2100084: AM31_010_wall_ornament_blue
+    2100086: AM31_010_light_obj
+    2100088: AI31_010_lamp_gold_glass
+    2100090: AM31_010_wood_dark
+    2100092: AI31_010_table_01
+    2100094: AI31_010_vase_small_01
+    2100096: AI31_010_vase_small_00
+    2100098: AI31_010_vase_small_02
+    2100100: AI31_010_phone
+    2100102: AI31_010_phone_003
+    2100104: AI31_010_phone_002
+    2100106: AI31_010_phone_004
+    2100108: AM31_010_wall_black_marble
+    2100110: AI31_010_cuppboard_wood
+    2100112: archmodels_122_010_006
+    2100114: archmodels_122_010_002
+    2100116: archmodels_122_010_001
+    2100118: archmodels_122_010_007
+    2100120: AI31_010_plant_004
+    2100122: AI31_010_plant_001
+    2100124: AI31_010_plant_003
+    2100126: AI31_010_tablet_005
+    2100128: AI31_010_tablet_001
+    2100130: AI31_010_tablet_002
+    2100132: AI31_010_tablet_003
+    2100134: AI31_010_tablet_004
+    2100136: AI31_010_tablet_006
+    2100138: AI31_010_chair_pillow_01
+    2100140: AI31_010_chair_pillow_02
+    2100142: AI31_010_chair_wood
+    2100144: AI31_010_plant_02_vase
+    2100146: AI31_010_plant_04
+    2100148: AI31_010_plant_02
+    2100150: AI31_010_bar_beer_tap_00
+    2100152: AI31_010_bar_beer_tap_001
+    2100154: AI31_010_bar_beer_tap_005
+    2100156: AI31_010_bar_beer_tap_polished_brass
+    2100158: AI31_010_bar_beer_tap_steel
+    2100160: AI31_010_bar_beer_tap_003
+    2100162: AI31_010_bar_beer_tap_004
+    2100164: AI31_010_bar_bottle_01_001
+    2100166: AI31_010_bar_bottle_01_002
+    2100168: AI31_010_bar_bottle_01_003
+    2100170: AI31_010_bar_bottle_01_004
+    2100172: AI31_010_bar_bottle_01_005
+    2100174: AI31_010_bar_bottle_01_006
+    2100176: AI31_010_bar_bottle_01_007
+    2100178: AI31_010_bar_bottle_01_008
+    2100180: AI31_010_bar_bottle_01_009
+    2100182: AI31_010_bar_bottle_01_010
+    2100184: AI31_010_bar_bottle_01_011
+    2100186: AI31_010_bar_bottle_01_012
+    2100188: AI31_010_bar_bottle_01_013
+    2100190: AI31_010_bar_bottle_01_014
+    2100192: AI31_010_bar_bottle_01_015
+    2100194: AI31_010_bar_bottle_01_016
+    2100196: AI31_010_bar_bottle_01_017
+    2100198: AI31_010_bar_bottle_01_018
+    2100200: AI31_010_bar_bottle_01_019
+    2100202: AI31_010_bar_bottle_01_020
+    2100204: AI31_010_bar_bottle_01_021
+    2100206: AI31_010_bar_bottle_01_022
+    2100208: AI31_010_bar_bottle_01_023
+    2100210: AI31_010_bar_bottle_01_024
+    2100212: AI31_010_bar_bottle_01_glass2
+    2100214: AI31_010_bar_bottle_01_026
+    2100216: AI31_010_bar_bottle_01_027
+    2100218: AI31_010_bar_bottle_02_004
+    2100220: AI31_010_bar_bottle_02_001
+    2100222: AI31_010_bar_bottle_02_002
+    2100224: AI31_010_bar_bottle_02_003
+    2100226: AI31_010_bar_bottle_02_005
+    2100228: AI31_010_bar_bottle_02_006
+    2100230: AI31_010_bar_bottle_02_007
+    2100232: AI31_010_bar_bottle_02_009
+    2100234: AI31_010_bar_bottle_02_010
+    2100236: AI31_010_bar_bottle_02_011
+    2100238: AI31_010_bar_bottle_02_012
+    2100240: AI31_010_bar_bottle_02_013
+    2100242: AI31_010_bar_bottle_02_014
+    2100244: AI31_010_bar_bottle_02_015
+    2100246: AI31_010_bar_bottle_02_016
+    2100248: AI31_010_bar_bottle_02_017
+    2300000: AI31_010_00
+    2300002: AI31_010_01
+    2300004: AI31_010_02
+    2300006: AI31_010_03
+    2300008: AI31_010_04
+    2300010: AI31_010_05
+    2300012: AI31_010_06
+    2300014: AI31_010_07
+    2300016: AI31_010_08
+    2300018: AI31_010_09
+    2300020: AI31_010_10
+    2300022: AI31_010_101
+    2300024: AI31_010_102
+    2300026: AI31_010_104
+    2300028: AI31_010_105
+    2300030: AI31_010_107
+    2300032: AI31_010_108
+    2300034: AI31_010_11
+    2300036: AI31_010_110
+    2300038: AI31_010_111
+    2300040: AI31_010_113
+    2300042: AI31_010_114
+    2300044: AI31_010_116
+    2300046: AI31_010_117
+    2300048: AI31_010_118
+    2300050: AI31_010_119
+    2300052: AI31_010_12
+    2300054: AI31_010_120
+    2300056: AI31_010_121
+    2300058: AI31_010_122
+    2300060: AI31_010_13
+    2300062: AI31_010_14
+    2300064: AI31_010_15
+    2300066: AI31_010_16
+    2300068: AI31_010_17
+    2300070: AI31_010_18
+    2300072: AI31_010_19
+    2300074: AI31_010_20
+    2300076: AI31_010_22
+    2300078: AI31_010_23
+    2300080: AI31_010_24
+    2300082: AI31_010_25
+    2300084: AI31_010_26
+    2300086: AI31_010_27
+    2300088: AI31_010_28
+    2300090: AI31_010_29
+    2300092: AI31_010_30
+    2300094: AI31_010_31
+    2300096: AI31_010_32
+    2300098: AI31_010_34
+    2300100: AI31_010_35
+    2300102: AI31_010_36
+    2300104: AI31_010_37
+    2300106: AI31_010_38
+    2300108: AI31_010_39
+    2300110: AI31_010_40
+    2300112: AI31_010_41
+    2300114: AI31_010_42
+    2300116: AI31_010_43
+    2300118: AI31_010_44
+    2300120: AI31_010_46
+    2300122: AI31_010_47
+    2300124: AI31_010_48
+    2300126: AI31_010_49
+    2300128: AI31_010_50
+    2300130: AI31_010_51
+    2300132: AI31_010_52
+    2300134: AI31_010_53
+    2300136: AI31_010_54
+    2300138: AI31_010_55
+    2300140: AI31_010_56
+    2300142: AI31_010_57
+    2300144: AI31_010_58
+    2300146: AI31_010_59
+    2300148: AI31_010_60
+    2300150: AI31_010_61
+    2300152: AI31_010_62
+    2300154: AI31_010_63
+    2300156: AI31_010_64
+    2300158: AI31_010_65
+    2300160: AI31_010_66
+    2300162: AI31_010_67
+    2300164: AI31_010_68
+    2300166: AI31_010_69
+    2300168: AI31_010_70
+    2300170: AI31_010_71
+    2300172: AI31_010_72
+    2300174: AI31_010_73
+    2300176: AI31_010_74
+    2300178: AI31_010_75
+    2300180: AI31_010_76
+    2300182: AI31_010_77
+    2300184: AI31_010_78
+    2300186: AI31_010_79
+    2300188: AI31_010_80
+    2300190: AI31_010_81
+    2300192: AI31_010_83
+    2300194: AI31_010_84
+    2300196: AI31_010_86
+    2300198: AI31_010_87
+    2300200: AI31_010_89
+    2300202: AI31_010_90
+    2300204: AI31_010_91
+    2300206: AI31_010_92
+    2300208: AI31_010_93
+    2300210: AI31_010_95
+    2300212: AI31_010_96
+    2300214: AI31_010_98
+    2300216: AI31_010_99
+    3300000: AI31_010_00
+    3300002: AI31_010_01
+    3300004: AI31_010_02
+    3300006: AI31_010_03
+    3300008: AI31_010_04
+    3300010: AI31_010_05
+    3300012: AI31_010_06
+    3300014: AI31_010_07
+    3300016: AI31_010_08
+    3300018: AI31_010_09
+    3300020: AI31_010_10
+    3300022: AI31_010_101
+    3300024: AI31_010_102
+    3300026: AI31_010_104
+    3300028: AI31_010_105
+    3300030: AI31_010_107
+    3300032: AI31_010_108
+    3300034: AI31_010_11
+    3300036: AI31_010_110
+    3300038: AI31_010_111
+    3300040: AI31_010_113
+    3300042: AI31_010_114
+    3300044: AI31_010_116
+    3300046: AI31_010_117
+    3300048: AI31_010_118
+    3300050: AI31_010_119
+    3300052: AI31_010_12
+    3300054: AI31_010_120
+    3300056: AI31_010_121
+    3300058: AI31_010_122
+    3300060: AI31_010_13
+    3300062: AI31_010_14
+    3300064: AI31_010_15
+    3300066: AI31_010_16
+    3300068: AI31_010_17
+    3300070: AI31_010_18
+    3300072: AI31_010_19
+    3300074: AI31_010_20
+    3300076: AI31_010_22
+    3300078: AI31_010_23
+    3300080: AI31_010_24
+    3300082: AI31_010_25
+    3300084: AI31_010_26
+    3300086: AI31_010_27
+    3300088: AI31_010_28
+    3300090: AI31_010_29
+    3300092: AI31_010_30
+    3300094: AI31_010_31
+    3300096: AI31_010_32
+    3300098: AI31_010_34
+    3300100: AI31_010_35
+    3300102: AI31_010_36
+    3300104: AI31_010_37
+    3300106: AI31_010_38
+    3300108: AI31_010_39
+    3300110: AI31_010_40
+    3300112: AI31_010_41
+    3300114: AI31_010_42
+    3300116: AI31_010_43
+    3300118: AI31_010_44
+    3300120: AI31_010_46
+    3300122: AI31_010_47
+    3300124: AI31_010_48
+    3300126: AI31_010_49
+    3300128: AI31_010_50
+    3300130: AI31_010_51
+    3300132: AI31_010_52
+    3300134: AI31_010_53
+    3300136: AI31_010_54
+    3300138: AI31_010_55
+    3300140: AI31_010_56
+    3300142: AI31_010_57
+    3300144: AI31_010_58
+    3300146: AI31_010_59
+    3300148: AI31_010_60
+    3300150: AI31_010_61
+    3300152: AI31_010_62
+    3300154: AI31_010_63
+    3300156: AI31_010_64
+    3300158: AI31_010_65
+    3300160: AI31_010_66
+    3300162: AI31_010_67
+    3300164: AI31_010_68
+    3300166: AI31_010_69
+    3300168: AI31_010_70
+    3300170: AI31_010_71
+    3300172: AI31_010_72
+    3300174: AI31_010_73
+    3300176: AI31_010_74
+    3300178: AI31_010_75
+    3300180: AI31_010_76
+    3300182: AI31_010_77
+    3300184: AI31_010_78
+    3300186: AI31_010_79
+    3300188: AI31_010_80
+    3300190: AI31_010_81
+    3300192: AI31_010_83
+    3300194: AI31_010_84
+    3300196: AI31_010_86
+    3300198: AI31_010_87
+    3300200: AI31_010_89
+    3300202: AI31_010_90
+    3300204: AI31_010_91
+    3300206: AI31_010_92
+    3300208: AI31_010_93
+    3300210: AI31_010_95
+    3300212: AI31_010_96
+    3300214: AI31_010_98
+    3300216: AI31_010_99
+    4300000: AI31_010_00
+    4300002: AI31_010_01
+    4300004: AI31_010_02
+    4300006: AI31_010_03
+    4300008: AI31_010_04
+    4300010: AI31_010_05
+    4300012: AI31_010_06
+    4300014: AI31_010_07
+    4300016: AI31_010_08
+    4300018: AI31_010_09
+    4300020: AI31_010_10
+    4300022: AI31_010_11
+    4300024: AI31_010_12
+    4300026: AI31_010_13
+    4300028: AI31_010_14
+    4300030: AI31_010_15
+    4300032: AI31_010_16
+    4300034: AI31_010_17
+    4300036: AI31_010_18
+    4300038: AI31_010_19
+    4300040: AI31_010_20
+    4300042: AI31_010_22
+    4300044: AI31_010_23
+    4300046: AI31_010_24
+    4300048: AI31_010_25
+    4300050: AI31_010_26
+    4300052: AI31_010_27
+    4300054: AI31_010_28
+    4300056: AI31_010_29
+    4300058: AI31_010_30
+    4300060: AI31_010_31
+    4300062: AI31_010_32
+    4300064: AI31_010_34
+    4300066: AI31_010_35
+    4300068: AI31_010_36
+    4300070: AI31_010_37
+    4300072: AI31_010_38
+    4300074: AI31_010_39
+    4300076: AI31_010_40
+    4300078: AI31_010_41
+    4300080: AI31_010_42
+    4300082: AI31_010_43
+    4300084: AI31_010_44
+    4300086: AI31_010_46
+    4300088: AI31_010_47
+    4300090: AI31_010_48
+    4300092: AI31_010_49
+    4300094: AI31_010_50
+    4300096: AI31_010_51
+    4300098: AI31_010_52
+    4300100: AI31_010_53
+    4300102: AI31_010_54
+    4300104: AI31_010_55
+    4300106: AI31_010_56
+    4300108: AI31_010_57
+    4300110: AI31_010_58
+    4300112: AI31_010_59
+    4300114: AI31_010_60
+    4300116: AI31_010_61
+    4300118: AI31_010_62
+    4300120: AI31_010_63
+    4300122: AI31_010_64
+    4300124: AI31_010_65
+    4300126: AI31_010_66
+    4300128: AI31_010_67
+    4300130: AI31_010_68
+    4300132: AI31_010_69
+    4300134: AI31_010_70
+    4300136: AI31_010_71
+    4300138: AI31_010_72
+    4300140: AI31_010_73
+    4300142: AI31_010_74
+    4300144: AI31_010_75
+    4300146: AI31_010_76
+    4300148: AI31_010_77
+    4300150: AI31_010_78
+    4300152: AI31_010_79
+    4300154: AI31_010_80
+    4300156: AI31_010_81
+    4300158: AI31_010_83
+    4300160: AI31_010_84
+    4300162: AI31_010_86
+    4300164: AI31_010_87
+    4300166: AI31_010_89
+    4300168: AI31_010_90
+    4300170: AI31_010_91
+    4300172: AI31_010_92
+    4300174: AI31_010_93
+    4300176: AI31_010_95
+    4300178: AI31_010_96
+    4300180: AI31_010_98
+    4300182: AI31_010_99
+    4300184: AI31_010_101
+    4300186: AI31_010_102
+    4300188: AI31_010_104
+    4300190: AI31_010_105
+    4300192: AI31_010_107
+    4300194: AI31_010_108
+    4300196: AI31_010_110
+    4300198: AI31_010_111
+    4300200: AI31_010_113
+    4300202: AI31_010_114
+    4300204: AI31_010_116
+    4300206: AI31_010_117
+    4300208: AI31_010_118
+    4300210: AI31_010_119
+    4300212: AI31_010_120
+    4300214: AI31_010_121
+    4300216: AI31_010_122
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Spot001
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_ball_glass
+    second: {fileID: 2100000, guid: 720d38918c03d9a4bb0d597dffdbb2c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_ball_liqiud
+    second: {fileID: 2100000, guid: 697078332ac583b40b4a02b033fa4310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_00
+    second: {fileID: 2100000, guid: 910371eddad0133428e9e582933de365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_001
+    second: {fileID: 2100000, guid: d674d19ff9eaafe4a818855b067505b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_003
+    second: {fileID: 2100000, guid: 3f5ee0cb4e98730408d51e9d4fe7ee7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_004
+    second: {fileID: 2100000, guid: bae1f6597740c6d45b7602c4e6fdfa09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_005
+    second: {fileID: 2100000, guid: 984e9da636a44374599783100a3f677a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_polished_brass
+    second: {fileID: 2100000, guid: 6b1f64d3a6c7102499ce163e56c66509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_beer_tap_steel
+    second: {fileID: 2100000, guid: 5c59cf83e17527a4bbeccd6aeed2c3c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_black_box
+    second: {fileID: 2100000, guid: b6ba25e7e4c38854691a8fd332563af4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_001
+    second: {fileID: 2100000, guid: 09cfb49988cbab24f97174c292f2a7cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_002
+    second: {fileID: 2100000, guid: deb7501197c73a248b5ca0219fab095a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_003
+    second: {fileID: 2100000, guid: 89b858dce573dae4cb6ec2df58527637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_004
+    second: {fileID: 2100000, guid: 425d736460fc8814f92c240d83bdca64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_005
+    second: {fileID: 2100000, guid: e5eafc4be1873dc4b8d9e6be4734c69c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_006
+    second: {fileID: 2100000, guid: c221e8ae8a8082545a3cd649575016f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_007
+    second: {fileID: 2100000, guid: 9f05eed9fe8d65745bf806d8c369a4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_008
+    second: {fileID: 2100000, guid: 9989ae9165d522f46aab793c690891f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_009
+    second: {fileID: 2100000, guid: f6216439871d97a4383bbe2c4364f7cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_010
+    second: {fileID: 2100000, guid: cc778ccb102736742b64e9b5dc816f96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_011
+    second: {fileID: 2100000, guid: 13f02c9564186b546a36ebaf250d7b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_012
+    second: {fileID: 2100000, guid: 32346a794b31c0949a12685440ff529c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_013
+    second: {fileID: 2100000, guid: c2f39dab93a2dbf4dbfae11fe0e4ce19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_014
+    second: {fileID: 2100000, guid: b893a07b3ae91d345b9b2a59261afbb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_015
+    second: {fileID: 2100000, guid: b8b1b79c77a8035449524b27fc275955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_016
+    second: {fileID: 2100000, guid: f4b8240f23c1a8f4ba07e2749638297c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_017
+    second: {fileID: 2100000, guid: 9a95d2864181e354a8f7bc7c4005e591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_018
+    second: {fileID: 2100000, guid: 41815916c1981414499c72b7f9d6ea1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_019
+    second: {fileID: 2100000, guid: 8ab6f7f096ca48145beb6e05f825e4f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_020
+    second: {fileID: 2100000, guid: 4b231d427f483ef44b5361e013d2b197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_021
+    second: {fileID: 2100000, guid: 54bb2ff62ef69934abe41b6a12936bb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_022
+    second: {fileID: 2100000, guid: c99afce92420daa4f8d03975e2201acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_023
+    second: {fileID: 2100000, guid: dc8f952dbc19d01438798622b8e09c16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_024
+    second: {fileID: 2100000, guid: 547e9ce6aa09fc1438f5e739383bcf7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_026
+    second: {fileID: 2100000, guid: 03ee8c70c218aed408aca1d65a7c47f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_027
+    second: {fileID: 2100000, guid: a2954cfe268b621438a1880f5317cf40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_01_glass2
+    second: {fileID: 2100000, guid: ea310bb965e7a18418e6eb8576d3a29b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_001
+    second: {fileID: 2100000, guid: 5560cb9a38d89c8419e1e16d6208a3bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_002
+    second: {fileID: 2100000, guid: 04c1157a73e704e408524cf8685ca4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_003
+    second: {fileID: 2100000, guid: 8ab32852b7b5f734380be66552d4afdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_004
+    second: {fileID: 2100000, guid: 64cc274a4a66ae949a366046ed734a79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_005
+    second: {fileID: 2100000, guid: 1075524b5b7a33f4ab267236050fcaa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_006
+    second: {fileID: 2100000, guid: 30d13b2520aac7046a3f8f783f756897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_007
+    second: {fileID: 2100000, guid: 83101569788ed944a91a2ef8efdb382b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_009
+    second: {fileID: 2100000, guid: c01ae02d1e8bc8642b781b1ebc297838, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_010
+    second: {fileID: 2100000, guid: 315f8656e9577fb458f82c627ee35b12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_011
+    second: {fileID: 2100000, guid: 25b38b0be00c23c489b694a5eeca2cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_012
+    second: {fileID: 2100000, guid: 9617dfb64a0302b4e8c32e910251e21e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_013
+    second: {fileID: 2100000, guid: 5225f706a27daaf4a92c5ee59f5a4e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_014
+    second: {fileID: 2100000, guid: fb516260caa12e244bd860e1a78b1047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_015
+    second: {fileID: 2100000, guid: 67b3577203bf3cf4fafa390dccd94cd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_016
+    second: {fileID: 2100000, guid: 247229f2fd320a649a51e7d2250cb963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_bottle_02_017
+    second: {fileID: 2100000, guid: cd1a87ac2b860c04d980ecbcafded915, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_chair_00
+    second: {fileID: 2100000, guid: 2c9940599e99e634c97bcace70db3cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_gold_rail
+    second: {fileID: 2100000, guid: ac8528dc751c60447a91ccb07038b483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_mirror
+    second: {fileID: 2100000, guid: f901f5af15fdaa24ab3b7efe259cab9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_wine_glass
+    second: {fileID: 2100000, guid: c8ede976980aeed42ac8931a7d6e530b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bar_wood
+    second: {fileID: 2100000, guid: bdda47f7fa5233a4e8b40bdd42f501cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_boxes_outside
+    second: {fileID: 2100000, guid: 39232ef8297011747b2d9aaa569d24da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_carpet_01
+    second: {fileID: 2100000, guid: b55efc3e3347832468cdd7bae94ca27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_carpet_02
+    second: {fileID: 2100000, guid: 769650a00e12b614c82fac422bc8b75f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_pillow_01
+    second: {fileID: 2100000, guid: e2e680cb69178b248aed25266130e6e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_pillow_02
+    second: {fileID: 2100000, guid: 962aebe43ed99464da5a846f8be439d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_wood
+    second: {fileID: 2100000, guid: f785c4492c7694e44b2057394cbceeda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_cuppboard_wood
+    second: {fileID: 2100000, guid: 19a40b331d9f5bd4885a0f435eb13030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_figure
+    second: {fileID: 2100000, guid: eccd1349cba231a40a440e6830058353, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_floor_001
+    second: {fileID: 2100000, guid: e17a8d7fdd667ee448da0cb5fbfbf10b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_lamp_gold_glass
+    second: {fileID: 2100000, guid: fc8346bd83d1c9444b6e6068e101c5cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone
+    second: {fileID: 2100000, guid: 125e7d18ca3970940acb4f06eb8a885f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_002
+    second: {fileID: 2100000, guid: 3bffef55f7568ad448846f82870c2f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_003
+    second: {fileID: 2100000, guid: 366c05fa02105d341943e12dfadc3bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_004
+    second: {fileID: 2100000, guid: d9e84b7d8498f424e929e2ba4ccf8dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_001
+    second: {fileID: 2100000, guid: 74530cfbe171a8e4ab7a475a2dbc72de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_003
+    second: {fileID: 2100000, guid: 8f1d083c8cec10e4295c78ea63d0a71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_004
+    second: {fileID: 2100000, guid: 11e4b6df4b2db7b45af93913351161e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_02
+    second: {fileID: 2100000, guid: ea27f9213de6d9248a46efc2d4c8525c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_02_vase
+    second: {fileID: 2100000, guid: 7e912306dc7fbb2418bb7e1e7017435e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_04
+    second: {fileID: 2100000, guid: ef3da6a26636ad349a9858ecbce14e1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plasters
+    second: {fileID: 2100000, guid: cafb20ffba157dd458b25eb1c0670b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_table_01
+    second: {fileID: 2100000, guid: 69ee6d81211dba04fa0468b7c424687e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_001
+    second: {fileID: 2100000, guid: c1b3dc0fb2200a149a75a3b677ed0985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_002
+    second: {fileID: 2100000, guid: 104d735164f36d845bdef9ee0a78878d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_003
+    second: {fileID: 2100000, guid: 8cd63143e106a4043a54683b3b25f278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_004
+    second: {fileID: 2100000, guid: 46762a1ca78aba34bb0f502caea31d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_005
+    second: {fileID: 2100000, guid: cd295d170d3ab3b43ab0dd22a8c4229b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_006
+    second: {fileID: 2100000, guid: abd37ad3723083448b6ad3de3c445475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase
+    second: {fileID: 2100000, guid: 40d010ee0e0401d43b4da6a8fb73f8be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_03
+    second: {fileID: 2100000, guid: 877d63ef25c91514eb4f61c33f33b5f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_small_00
+    second: {fileID: 2100000, guid: 05f6336f58a6b1640a6227e74b806856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_small_01
+    second: {fileID: 2100000, guid: 98b013e906b05a24e86b4f40268bf75a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_small_02
+    second: {fileID: 2100000, guid: 6961d4a3f84645b4b8050682fa9bc929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_bar_dark
+    second: {fileID: 2100000, guid: d026b0c3bb5f2ce4d9fdf8bed1a16a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_bar_lightwood
+    second: {fileID: 2100000, guid: d1889b28ab76f0f48a24398e0c0ac119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_door_dark_glass
+    second: {fileID: 2100000, guid: 8734847d9b83a464e8df6dfb59823cb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_door_white
+    second: {fileID: 2100000, guid: 342ea3e88a37f1a4c9314e40e7adc121, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_floor_tiles_blue
+    second: {fileID: 2100000, guid: 81d9ed357cdfee745bcbfdc65a250cc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_floor_tiles_white
+    second: {fileID: 2100000, guid: 7a0e42afe9cef9a4eaaa53d7af070f32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_gold
+    second: {fileID: 2100000, guid: ce15a5e473bc7f0498e329df542fd808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_light_obj
+    second: {fileID: 2100000, guid: 29bcce2fb640e4d4cb23070863357e5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_stairs_marble
+    second: {fileID: 2100000, guid: 554546bf5c1b3274a9941d1a410f1493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_stairs_white_marble
+    second: {fileID: 2100000, guid: 4875ff0d185b9c641af9e9f3724732b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_stairs_wood
+    second: {fileID: 2100000, guid: ff47c4f5eaaa72947ac5e00d63ac6bea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_upperfloor_ceeling
+    second: {fileID: 2100000, guid: 8c8dd47113b7bc449b81a4adc7938c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_black
+    second: {fileID: 2100000, guid: fd0de68789702ac4b9e91961eb93d7f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_black_marble
+    second: {fileID: 2100000, guid: 529bbf3ec04db6f4bad3009ba45caa7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_celling_blue
+    second: {fileID: 2100000, guid: ddac40a54a443d246aa75b7e370056e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_marble_02
+    second: {fileID: 2100000, guid: ee439fbf04f8a5a41afd0e193c34d036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_mirror
+    second: {fileID: 2100000, guid: 1499c934518afae4fab84103bead8681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_mural_blue
+    second: {fileID: 2100000, guid: bd3eb2be4a9ffc445ba03517a1cd8f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_orange
+    second: {fileID: 2100000, guid: f6b7870b83fc6344e892ea5d25437b79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_ornament_01
+    second: {fileID: 2100000, guid: d07cf3f6127eb744dbd729049a5e21d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_ornament_02
+    second: {fileID: 2100000, guid: 2ccca3d29ef790e4ba8b61060045726d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_ornament_03
+    second: {fileID: 2100000, guid: 6ba42a5cdc82a054e865a5dcf7f05498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_ornament_blue
+    second: {fileID: 2100000, guid: e328cd01e2705bf44b846d4c08c44774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_ornament_gold
+    second: {fileID: 2100000, guid: 00293e31d71aee54c8143ddbb60dc6f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_red
+    second: {fileID: 2100000, guid: 2da7056aa2a81b948bec237670aee9a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wall_yellow
+    second: {fileID: 2100000, guid: 4135d02c4953c9b4a95d3d7402aa17da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_white_wood
+    second: {fileID: 2100000, guid: eefe1f67a197b7d48bd5882f1be93804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_window_glass
+    second: {fileID: 2100000, guid: 5a9f05d92082c92468bce5000abed167, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AM31_010_wood_dark
+    second: {fileID: 2100000, guid: 92ac1d2c1201e6a41822e5af568df124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_010
+    second: {fileID: 2100000, guid: 975a76f3e624fc1448c43de884dd6849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archmodels_122_010_001
+    second: {fileID: 2100000, guid: dcf3f5408b6145840a3266da503bb618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archmodels_122_010_002
+    second: {fileID: 2100000, guid: 7743b4e4a896a114b82d5763db30927e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archmodels_122_010_006
+    second: {fileID: 2100000, guid: ee2b977bf52e8154daf04141346788dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archmodels_122_010_007
+    second: {fileID: 2100000, guid: 241c927b84dd759478c52f745859a49f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_MarbleWhite
+    second: {fileID: 2800000, guid: 37fe7ad65dea19a4d991ea72dd55ddf0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_base_wall_color_01
+    second: {fileID: 2800000, guid: 8511fda9410d92a4887e328c01993ecd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_base_wall_color_01_gloss
+    second: {fileID: 2800000, guid: 8717732205492ad4988414c0ccf08ffb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_blackmarble_color
+    second: {fileID: 2800000, guid: 9ffe6224975637b4e98b3a0242115d98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bleubrick_color
+    second: {fileID: 2800000, guid: f49951c25e0c7b243a68ac05f0cf698c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_001_color
+    second: {fileID: 2800000, guid: 1549c0bdef5f3434893dedf9d7f54e13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_001_color_02
+    second: {fileID: 2800000, guid: e49aa9c84bf452d47958308889cb9f4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_001_color_03
+    second: {fileID: 2800000, guid: 2d9a13d67356cd54599c25fba9ee1be4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_001_opacity
+    second: {fileID: 2800000, guid: 1ec9bc72cdc27bd468ef7a66a4fd8485, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_001_reflect
+    second: {fileID: 2800000, guid: c23d66fbecc41214e9028d92246f26a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_001_reflect_01
+    second: {fileID: 2800000, guid: f6a018a8ee3c79e4abedc3b000f20f71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_003_color
+    second: {fileID: 2800000, guid: 031522370d36dc94aa1b2a683fad135a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_003_color_01
+    second: {fileID: 2800000, guid: bafada3c510ad5e44989b9048b922e64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_003_opacity
+    second: {fileID: 2800000, guid: 8496b80166bebc8489f4e26f648ad375, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_003_reflect
+    second: {fileID: 2800000, guid: f1a9208cbee14a540a89196256612028, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_003_reflect_01
+    second: {fileID: 2800000, guid: 5a09545c18eb3524f9405f9beac807f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_004_color
+    second: {fileID: 2800000, guid: 2fc6a91871a58024ba9ed3751d04091a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_004_color_01
+    second: {fileID: 2800000, guid: cc3edb73e2acd574aae3373257e3c092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_004_opacity
+    second: {fileID: 2800000, guid: c7ad077c332f68f44b0b1faa995f7d20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_004_reflect
+    second: {fileID: 2800000, guid: 24aa13c26fb3afb46935e1028dd20e65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_004_reflect_01
+    second: {fileID: 2800000, guid: b2b881398b0029843b73aa0badbaaf80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_005_color
+    second: {fileID: 2800000, guid: 74935712f602e05458997440059cbb55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_005_normal
+    second: {fileID: 2800000, guid: 440c1d310b32fa3488deec5ae2ea606c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_bottle_005_reflect
+    second: {fileID: 2800000, guid: 6268cffa52cee8b4fa37f77731e531e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_calabash_color
+    second: {fileID: 2800000, guid: 95976d224f800b244a57d6bbc63bf95a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_calabash_nrm
+    second: {fileID: 2800000, guid: c02601a2cfb3a61429170dfacb4ab782, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_carpets_color
+    second: {fileID: 2800000, guid: 2c774fc060871de409437dd62ebc0735, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_celling_01_color
+    second: {fileID: 2800000, guid: 7562ce278c50f9e4da525120aae4aeb9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_01_ao
+    second: {fileID: 2800000, guid: 1dc95ad6865694f4b84ad4d9121dabd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_01_color
+    second: {fileID: 2800000, guid: 53a4cb17dcbe5e5489bc666677df671b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_02_ao
+    second: {fileID: 2800000, guid: b02d8564deeb75f48805a79e990b39b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_pillow_gloss
+    second: {fileID: 2800000, guid: 3d1131b8ddb854b49b61ae52e734ce19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_wood_001_color
+    second: {fileID: 2800000, guid: 52410319396d51d4a83c7ec156805309, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_chair_wood_002_color
+    second: {fileID: 2800000, guid: 4cdfc9977e7ce21408ee6732d70844b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_color
+    second: {fileID: 2800000, guid: a45166805993e6244a9249ab49111af6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_color_1
+    second: {fileID: 2800000, guid: b978fc6ef3a0d6d4c9c08d26f3e5c57e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_color_2
+    second: {fileID: 2800000, guid: 12fa59628d53b1c4a9979775bae1c676, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_commode_wood_01_color
+    second: {fileID: 2800000, guid: 581927aded378194cb6c478f8a34e4b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_decal_01
+    second: {fileID: 2800000, guid: 52d857af5acf226459f0d557951a57a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_decal_02
+    second: {fileID: 2800000, guid: b35128fc291bc644b91469423b3b993f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_decal_03
+    second: {fileID: 2800000, guid: dfd9567ac1f12a343807d8f1beb44233, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_decal_04
+    second: {fileID: 2800000, guid: 11ae5344539449d46986cec1c55551d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_door_window_color
+    second: {fileID: 2800000, guid: b24e8e07a5f29a547978919d99d7d4f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_floor_base
+    second: {fileID: 2800000, guid: 5d255397e04b6294499247bab6f4c75c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_floor_tile_01
+    second: {fileID: 2800000, guid: 5878732609c0c224398724b9bfeb8eb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_marble_001_reflect
+    second: {fileID: 2800000, guid: 5ad922a9b7be7334894b9790dc8d1dec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_marble_plaster
+    second: {fileID: 2800000, guid: b763ac07601060a4c8b4727950824a63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_metal_01
+    second: {fileID: 2800000, guid: 8374195536991084ba649c079db60791, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_metal_02
+    second: {fileID: 2800000, guid: c37ba781367db55479e87f56b5bba7cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_mural_01
+    second: {fileID: 2800000, guid: 729e3e57e506c434096d26d65a17b7f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_mural_01_disp
+    second: {fileID: 2800000, guid: 7d64abe060d209745a9efe53e6cef345, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_mural_01_reflect_gloss
+    second: {fileID: 2800000, guid: 2dd76d1df0e5f3a4e9a58e2dc80b85f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_ornament_01_disp
+    second: {fileID: 2800000, guid: 220fd232cc282f84e94c0e70c7f1f9b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_ornament_03_disp
+    second: {fileID: 2800000, guid: 2e52688c217df7848bb621ac658d9104, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_001
+    second: {fileID: 2800000, guid: 0a3573ce21e3bd84bbe159e02d40892f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_001_bump
+    second: {fileID: 2800000, guid: 86185f27f3fea704d9cbe5afcb4944dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_002
+    second: {fileID: 2800000, guid: d20052fca91c2954cb38bfd5576d7d5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_phone_003
+    second: {fileID: 2800000, guid: d02686005ee3a78478dbe8b69d05e5f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_big_bump
+    second: {fileID: 2800000, guid: 542fc9d3e45b1384e9ac3d7237d82904, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_big_diffuse
+    second: {fileID: 2800000, guid: 8d9e562c36788ea41a8f54dc4504acd8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_bump_01
+    second: {fileID: 2800000, guid: ea5d1f73b49d67f48b85d6bbb7193bec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_color_01
+    second: {fileID: 2800000, guid: 614511b6cb0f2d3409e3d1ad61b2b5a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plant_color_02
+    second: {fileID: 2800000, guid: 4f4426f69eb755d47b046c1926895fae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plaster_01
+    second: {fileID: 2800000, guid: ac03277cfa1fe2f4fae08ed45817e75f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plaster_01_disp
+    second: {fileID: 2800000, guid: 042d7abd586fa254d9c68d7fdd45e175, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plaster_02
+    second: {fileID: 2800000, guid: 10945d4f551e4cd44b27ddef1cb731c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plaster_bump_01
+    second: {fileID: 2800000, guid: a297ddb28c0dbd64f915c5a10991bc4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plaster_detail_01
+    second: {fileID: 2800000, guid: 228a639f7a80da84695b18f3b5167a31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_plaster_detail_03
+    second: {fileID: 2800000, guid: 412c3c880ed5b7043833d89f7d19df04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_red_wall_01_color
+    second: {fileID: 2800000, guid: 37b94fdf800a5a94cb3ea9dedf05cc54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_reflect
+    second: {fileID: 2800000, guid: 73f09bbd048eefa43865029be1fe2721, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_sofa_color
+    second: {fileID: 2800000, guid: 1daef86aaf7e82342a7ff66b2c052c20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_sofa_color_2
+    second: {fileID: 2800000, guid: 88c396d67ecbf95419064f07692634b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_sofa_reflect
+    second: {fileID: 2800000, guid: a7e04210d2ed96d468f0007c1b350cd3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_sofa_reflect_2
+    second: {fileID: 2800000, guid: df7c4761042c9bc478e3d1967c824306, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_stairs_wood_dirt_02
+    second: {fileID: 2800000, guid: 350756c8a5cd69d43b01f55d0827c8a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_001_bump
+    second: {fileID: 2800000, guid: 5c95b47e1eb9e244f94bb1dad74313e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_001_reflect
+    second: {fileID: 2800000, guid: 496a6f99065e35e44accbeae1dd26d8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_002
+    second: {fileID: 2800000, guid: b43091ce329dce94a9cdbc339fb31f6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_tablet_004
+    second: {fileID: 2800000, guid: 9109c757cb6fb3047803d1cabb3ba0e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_001_color
+    second: {fileID: 2800000, guid: 5b5000ba902418640a92c104db6b2371, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_001_nrm
+    second: {fileID: 2800000, guid: 3e96bbab82446ac4fbfd40c67363c191, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_001_refl
+    second: {fileID: 2800000, guid: 660fb32b64829e14aa9d177effdcc799, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_002_color
+    second: {fileID: 2800000, guid: 01a63cb72023deb46af851a8c69124b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_002_nrm
+    second: {fileID: 2800000, guid: 8ad12c0564ccc5c4387624392550a121, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_002_refl
+    second: {fileID: 2800000, guid: fd9ceae514a03ae448d5ae83c6d0a935, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_2
+    second: {fileID: 2800000, guid: 7c09bb589b1dca34fab46b2f622dc711, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_vase_3
+    second: {fileID: 2800000, guid: b0ce5e19350d82344b581b588f0a0b38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wall_decoration_001_reflect_01
+    second: {fileID: 2800000, guid: 3a85a6156a66a254cb876cd499e17c8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_detail_01
+    second: {fileID: 2800000, guid: 4d503b231b4d903488cdc6b9b8d03d31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_detail_02
+    second: {fileID: 2800000, guid: 81ec616f204e4e247a5e6bb8420d1c5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_detail_03
+    second: {fileID: 2800000, guid: ef3ff8cd0fb903d4eb437eab2d616fb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_dirt_00
+    second: {fileID: 2800000, guid: 30fc033ef5b199c41abaee4e0ce0cf73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_dirt_01
+    second: {fileID: 2800000, guid: bbd9784d0b0821347a29e759b9292c68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_disp2
+    second: {fileID: 2800000, guid: bf27312e906721f43a732cd195bd868e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_white_wood_paint
+    second: {fileID: 2800000, guid: 39e2accd34dc615409634baa8b92a1ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wood_001_color
+    second: {fileID: 2800000, guid: 5f2b2b70bf45a58448a58d846efc647f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wood_bar_01_color
+    second: {fileID: 2800000, guid: 82d0e09c198cd0e408029950f8e9b869, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wood_bar_02_color
+    second: {fileID: 2800000, guid: 237fa2f794ce8e84083e008d37838901, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wood_dark_01_color
+    second: {fileID: 2800000, guid: e13671392fff2e24096315ac433906e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wood_dark_02_color
+    second: {fileID: 2800000, guid: 5c9299e2c4ae69d47965201c75980720, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AI31_010_wood_ornament_ceiling
+    second: {fileID: 2800000, guid: 69f0ab93dca244346b71a9a73fa6a8b9, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

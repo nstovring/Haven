@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1725254305352904}
+  m_IsPrefabAsset: 1
+--- !u!1 &1451299583729026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4462671872665166}
+  - component: {fileID: 114283652162038534}
+  m_Layer: 0
+  m_Name: DollyCart1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1725254305352904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4984435605416928}
+  m_Layer: 0
+  m_Name: ForestBoidPaths
+  m_TagString: ForestBoidTracks
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1889156059745390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4677559787432474}
+  - component: {fileID: 114200377614224362}
+  m_Layer: 0
+  m_Name: DollyTrack1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4462671872665166
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451299583729026}
+  m_LocalRotation: {x: 0.0000722025, y: 0.97986895, z: -0.00035438006, w: 0.19964157}
+  m_LocalPosition: {x: -23.33, y: 7.44, z: -7.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4984435605416928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4677559787432474
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889156059745390}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -24.33, y: 7.44, z: -7.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4984435605416928}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4984435605416928
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725254305352904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4462671872665166}
+  - {fileID: 4677559787432474}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114200377614224362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889156059745390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a200b19ca1a9685429ed7e043c28e904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Resolution: 20
+  m_Appearance:
+    pathColor: {r: 0, g: 1, b: 0, a: 1}
+    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    width: 0.2
+  m_Looped: 0
+  m_Waypoints:
+  - position: {x: 1, y: 0, z: 0}
+    roll: 0
+  - position: {x: 11.652439, y: 0, z: -11.897821}
+    roll: 0
+  - position: {x: 31.041159, y: 0, z: -0.36001968}
+    roll: 0
+  - position: {x: 50.05304, y: 0, z: -4.4268503}
+    roll: 0
+  - position: {x: 61.659416, y: 0, z: 10.357409}
+    roll: 0
+  - position: {x: 61.298096, y: -2.8097458, z: 15.0880165}
+    roll: 0
+  - position: {x: 50.91037, y: -4.5135956, z: 17.43177}
+    roll: 0
+  - position: {x: 40.27598, y: -5.0174026, z: 19.775524}
+    roll: 0
+  - position: {x: 29.641594, y: -5.5212097, z: 22.119278}
+    roll: 0
+  - position: {x: 18.453796, y: -3.794098, z: 20.90851}
+    roll: 0
+  - position: {x: 14.7647085, y: -4.280361, z: 17.494007}
+    roll: 0
+  - position: {x: 9.65663, y: -4.2239647, z: 26.767485}
+    roll: 0
+  - position: {x: 13.308702, y: -4.4661045, z: 33.270996}
+    roll: 0
+  - position: {x: 16.960775, y: -5.2980804, z: 39.774506}
+    roll: 0
+  - position: {x: 27.417616, y: -6.994643, z: 46.132267}
+    roll: 0
+  - position: {x: 46.468502, y: -4.9299793, z: 46.752403}
+    roll: 0
+  - position: {x: 65.65334, y: -4.8140135, z: 36.576508}
+    roll: 0
+  - position: {x: 74.35874, y: -7.2082405, z: 38.5198}
+    roll: 0
+  - position: {x: 83.06414, y: -6.736429, z: 40.46309}
+    roll: 0
+--- !u!114 &114283652162038534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451299583729026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a9c787e5d1bbf48a389834c4a9641c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Path: {fileID: 114200377614224362}
+  m_UpdateMethod: 0
+  m_PositionUnits: 1
+  m_Speed: 0
+  m_Position: 0

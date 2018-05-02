@@ -20,7 +20,7 @@ public class GPUFlock : MonoBehaviour {
     public GPUBoid[] boidsData;
     public float flockSpeed;
     public float nearbyDis;
-
+    public float nearbyDisScale = 1;
     private Vector3 targetPos = Vector3.zero;
     private int kernelHandle;
     
@@ -37,16 +37,21 @@ public class GPUFlock : MonoBehaviour {
 
         for (int i = 0; i < this.boidsCount; i++)
         {
+            //int mod3 = i % this.boidsCount/2;
+
+
             this.boidsData[i] = this.CreateBoidData();
             this.boidsGo[i] = Instantiate(boidPrefab, this.boidsData[i].pos, Quaternion.Euler(this.boidsData[i].rot),transform) as GameObject;
             this.boidsData[i].rot = this.boidsGo[i].transform.forward;
+            //if (mod3 == 0)
+                //this.boidsGo[i].AddComponent<Light>();
         }
     }
 
     GPUBoid CreateBoidData()
     {
         GPUBoid boidData = new GPUBoid();
-        Vector3 pos = transform.position + Random.insideUnitSphere * spawnRadius;
+        Vector3 pos = boidTarget.position + Random.insideUnitSphere * spawnRadius;
         Quaternion rot = Quaternion.Slerp(transform.rotation, Random.rotation, 0.3f);
         boidData.pos = pos;
         boidData.flockPos = transform.position;
@@ -57,6 +62,8 @@ public class GPUFlock : MonoBehaviour {
         return boidData;
     }
     private Transform targetTransform;
+
+    ComputeBuffer buffer;
 
     void Update()
     {
@@ -78,11 +85,13 @@ public class GPUFlock : MonoBehaviour {
         }
 
 
-        ComputeBuffer buffer = new ComputeBuffer(boidsCount, 56);
-
+        buffer = new ComputeBuffer(boidsCount, System.Runtime.InteropServices.Marshal.SizeOf(typeof(GPUBoid)));
+        Random.InitState(453);
         for (int i = 0; i < this.boidsData.Length; i++)
         {
-            this.boidsData[i].flockPos = targetTransform.position;
+            this.boidsData[i].nearbyDis = (Mathf.Abs(Mathf.Sin(Time.time/6) + Mathf.Sin(Time.time / 4))) * 0.5f + nearbyDis;
+            this.boidsData[i].flockPos = targetTransform.position + (new Vector3(Mathf.Sin((Time.time / 8) + i), Mathf.Tan((Time.time/8) + i), Mathf.Cos((Time.time / 4) + i))) * nearbyDisScale;
+            this.boidsData[i].speed = this.flockSpeed + Random.Range(-0.5f, 0.5f);
         }
 
         buffer.SetData(this.boidsData);
@@ -107,6 +116,11 @@ public class GPUFlock : MonoBehaviour {
             }
 
         }
+    }
+
+    private void OnDestroy()
+    {
+        buffer.Release();
     }
 
 

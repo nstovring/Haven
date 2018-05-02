@@ -1,0 +1,1192 @@
+fileFormatVersion: 2
+guid: 798a8586b1259034e8376cc3a65cab93
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BONEONE:chest
+    100002: BONEONE:COG
+    100004: BONEONE:GreenFrog_Root
+    100006: BONEONE:Head
+    100008: BONEONE:Head_end
+    100010: BONEONE:Neck
+    100012: BONEONE:r_back_index_1
+    100014: BONEONE:r_back_index_2
+    100016: BONEONE:r_back_index_end
+    100018: BONEONE:r_back_mid_1
+    100020: BONEONE:r_back_mid_2
+    100022: BONEONE:r_back_mid_end
+    100024: BONEONE:r_back_pinky_1
+    100026: BONEONE:r_back_pinky_2
+    100028: BONEONE:r_back_pinky_3
+    100030: BONEONE:r_back_pinky_4
+    100032: BONEONE:r_back_pinky_end
+    100034: BONEONE:r_back_ring_1
+    100036: BONEONE:r_back_ring_2
+    100038: BONEONE:r_back_ring_3
+    100040: BONEONE:r_back_ring_4
+    100042: BONEONE:r_back_ring_end
+    100044: BONEONE:r_back_thumb_1
+    100046: BONEONE:r_back_thumb_2
+    100048: BONEONE:r_back_thumb_end
+    100050: BONEONE:r_bck_cravicre
+    100052: BONEONE:r_bck_erbow
+    100054: BONEONE:r_bck_shourder
+    100056: BONEONE:r_bck_wri
+    100058: BONEONE:r_frnt_cravicre
+    100060: BONEONE:r_frnt_erbow
+    100062: BONEONE:r_frnt_index_1
+    100064: BONEONE:r_frnt_index_2
+    100066: BONEONE:r_frnt_index_3
+    100068: BONEONE:r_frnt_index_end
+    100070: BONEONE:r_frnt_mid_1
+    100072: BONEONE:r_frnt_mid_2
+    100074: BONEONE:r_frnt_mid_3
+    100076: BONEONE:r_frnt_mid_end
+    100078: BONEONE:r_frnt_pinky_1
+    100080: BONEONE:r_frnt_pinky_2
+    100082: BONEONE:r_frnt_pinky_3
+    100084: BONEONE:r_frnt_pinky_end
+    100086: BONEONE:r_frnt_shourder
+    100088: BONEONE:r_frnt_thmb_1
+    100090: BONEONE:r_frnt_thmb_2
+    100092: BONEONE:r_frnt_thmb_3
+    100094: BONEONE:r_frnt_thmb_4
+    100096: BONEONE:r_frnt_wrist
+    100098: BONEONE:Spine1
+    100100: BONEONE:Spine2
+    100102: BONEONE:Spine3
+    100104: BONEONE:Spine4_UpDown
+    100106: CL_CL_froglower
+    100108: //RootNode
+    100110: r_back_index_1
+    100112: r_back_index_2
+    100114: r_back_index_end
+    100116: r_back_mid_1
+    100118: r_back_mid_2
+    100120: r_back_mid_end
+    100122: r_back_pinky_1
+    100124: r_back_pinky_2
+    100126: r_back_pinky_3
+    100128: r_back_pinky_4
+    100130: r_back_pinky_end
+    100132: r_back_ring_1
+    100134: r_back_ring_2
+    100136: r_back_ring_3
+    100138: r_back_ring_4
+    100140: r_back_ring_end
+    100142: r_back_thumb_1
+    100144: r_back_thumb_2
+    100146: r_back_thumb_end
+    100148: r_bck_cravicre
+    100150: r_bck_erbow
+    100152: r_bck_shourder
+    100154: r_bck_wri
+    100156: r_frnt_cravicre
+    100158: r_frnt_erbow
+    100160: r_frnt_index_1
+    100162: r_frnt_index_2
+    100164: r_frnt_index_3
+    100166: r_frnt_index_end
+    100168: r_frnt_mid_1
+    100170: r_frnt_mid_2
+    100172: r_frnt_mid_3
+    100174: r_frnt_mid_end
+    100176: r_frnt_pinky_1
+    100178: r_frnt_pinky_2
+    100180: r_frnt_pinky_3
+    100182: r_frnt_pinky_end
+    100184: r_frnt_shourder
+    100186: r_frnt_thmb_1
+    100188: r_frnt_thmb_2
+    100190: r_frnt_thmb_3
+    100192: r_frnt_thmb_4
+    100194: r_frnt_wrist
+    400000: BONEONE:chest
+    400002: BONEONE:COG
+    400004: BONEONE:GreenFrog_Root
+    400006: BONEONE:Head
+    400008: BONEONE:Head_end
+    400010: BONEONE:Neck
+    400012: BONEONE:r_back_index_1
+    400014: BONEONE:r_back_index_2
+    400016: BONEONE:r_back_index_end
+    400018: BONEONE:r_back_mid_1
+    400020: BONEONE:r_back_mid_2
+    400022: BONEONE:r_back_mid_end
+    400024: BONEONE:r_back_pinky_1
+    400026: BONEONE:r_back_pinky_2
+    400028: BONEONE:r_back_pinky_3
+    400030: BONEONE:r_back_pinky_4
+    400032: BONEONE:r_back_pinky_end
+    400034: BONEONE:r_back_ring_1
+    400036: BONEONE:r_back_ring_2
+    400038: BONEONE:r_back_ring_3
+    400040: BONEONE:r_back_ring_4
+    400042: BONEONE:r_back_ring_end
+    400044: BONEONE:r_back_thumb_1
+    400046: BONEONE:r_back_thumb_2
+    400048: BONEONE:r_back_thumb_end
+    400050: BONEONE:r_bck_cravicre
+    400052: BONEONE:r_bck_erbow
+    400054: BONEONE:r_bck_shourder
+    400056: BONEONE:r_bck_wri
+    400058: BONEONE:r_frnt_cravicre
+    400060: BONEONE:r_frnt_erbow
+    400062: BONEONE:r_frnt_index_1
+    400064: BONEONE:r_frnt_index_2
+    400066: BONEONE:r_frnt_index_3
+    400068: BONEONE:r_frnt_index_end
+    400070: BONEONE:r_frnt_mid_1
+    400072: BONEONE:r_frnt_mid_2
+    400074: BONEONE:r_frnt_mid_3
+    400076: BONEONE:r_frnt_mid_end
+    400078: BONEONE:r_frnt_pinky_1
+    400080: BONEONE:r_frnt_pinky_2
+    400082: BONEONE:r_frnt_pinky_3
+    400084: BONEONE:r_frnt_pinky_end
+    400086: BONEONE:r_frnt_shourder
+    400088: BONEONE:r_frnt_thmb_1
+    400090: BONEONE:r_frnt_thmb_2
+    400092: BONEONE:r_frnt_thmb_3
+    400094: BONEONE:r_frnt_thmb_4
+    400096: BONEONE:r_frnt_wrist
+    400098: BONEONE:Spine1
+    400100: BONEONE:Spine2
+    400102: BONEONE:Spine3
+    400104: BONEONE:Spine4_UpDown
+    400106: CL_CL_froglower
+    400108: //RootNode
+    400110: r_back_index_1
+    400112: r_back_index_2
+    400114: r_back_index_end
+    400116: r_back_mid_1
+    400118: r_back_mid_2
+    400120: r_back_mid_end
+    400122: r_back_pinky_1
+    400124: r_back_pinky_2
+    400126: r_back_pinky_3
+    400128: r_back_pinky_4
+    400130: r_back_pinky_end
+    400132: r_back_ring_1
+    400134: r_back_ring_2
+    400136: r_back_ring_3
+    400138: r_back_ring_4
+    400140: r_back_ring_end
+    400142: r_back_thumb_1
+    400144: r_back_thumb_2
+    400146: r_back_thumb_end
+    400148: r_bck_cravicre
+    400150: r_bck_erbow
+    400152: r_bck_shourder
+    400154: r_bck_wri
+    400156: r_frnt_cravicre
+    400158: r_frnt_erbow
+    400160: r_frnt_index_1
+    400162: r_frnt_index_2
+    400164: r_frnt_index_3
+    400166: r_frnt_index_end
+    400168: r_frnt_mid_1
+    400170: r_frnt_mid_2
+    400172: r_frnt_mid_3
+    400174: r_frnt_mid_end
+    400176: r_frnt_pinky_1
+    400178: r_frnt_pinky_2
+    400180: r_frnt_pinky_3
+    400182: r_frnt_pinky_end
+    400184: r_frnt_shourder
+    400186: r_frnt_thmb_1
+    400188: r_frnt_thmb_2
+    400190: r_frnt_thmb_3
+    400192: r_frnt_thmb_4
+    400194: r_frnt_wrist
+    4300000: CL_CL_froglower
+    7400000: Idle
+    7400002: Hop
+    7400004: JumpingStart
+    7400006: JumpEnd
+    9500000: //RootNode
+    13700000: CL_CL_froglower
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material3
+    second: {fileID: 2100000, guid: ad6c481f0d9e6554e866033215ba90c9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONEONE:GreenFrog_Root
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2/BONEONE:r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2/BONEONE:r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4/BONEONE:r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4/BONEONE:r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2/BONEONE:r_back_thumb_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head/BONEONE:Head_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3/BONEONE:r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3/BONEONE:r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3/BONEONE:r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3/BONEONE:r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3/r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3/r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3/r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3/r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2/r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2/r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4/r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4/r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2/r_back_thumb_end
+        weight: 1
+      - path: CL_CL_froglower
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hop
+      takeName: Take 001
+      firstFrame: 508
+      lastFrame: 551
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONEONE:GreenFrog_Root
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2/BONEONE:r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2/BONEONE:r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4/BONEONE:r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4/BONEONE:r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2/BONEONE:r_back_thumb_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head/BONEONE:Head_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3/BONEONE:r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3/BONEONE:r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3/BONEONE:r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3/BONEONE:r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3/r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3/r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3/r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3/r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2/r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2/r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4/r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4/r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2/r_back_thumb_end
+        weight: 1
+      - path: CL_CL_froglower
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpingStart
+      takeName: Take 001
+      firstFrame: 508
+      lastFrame: 529
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONEONE:GreenFrog_Root
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2/BONEONE:r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2/BONEONE:r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4/BONEONE:r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4/BONEONE:r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2/BONEONE:r_back_thumb_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head/BONEONE:Head_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3/BONEONE:r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3/BONEONE:r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3/BONEONE:r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3/BONEONE:r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3/r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3/r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3/r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3/r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2/r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2/r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4/r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4/r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2/r_back_thumb_end
+        weight: 1
+      - path: CL_CL_froglower
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpEnd
+      takeName: Take 001
+      firstFrame: 540
+      lastFrame: 562
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONEONE:GreenFrog_Root
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_index_1/BONEONE:r_back_index_2/BONEONE:r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_mid_1/BONEONE:r_back_mid_2/BONEONE:r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_pinky_1/BONEONE:r_back_pinky_2/BONEONE:r_back_pinky_3/BONEONE:r_back_pinky_4/BONEONE:r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_ring_1/BONEONE:r_back_ring_2/BONEONE:r_back_ring_3/BONEONE:r_back_ring_4/BONEONE:r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:r_bck_cravicre/BONEONE:r_bck_shourder/BONEONE:r_bck_erbow/BONEONE:r_bck_wri/BONEONE:r_back_thumb_1/BONEONE:r_back_thumb_2/BONEONE:r_back_thumb_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:Neck/BONEONE:Head/BONEONE:Head_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_index_1/BONEONE:r_frnt_index_2/BONEONE:r_frnt_index_3/BONEONE:r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_mid_1/BONEONE:r_frnt_mid_2/BONEONE:r_frnt_mid_3/BONEONE:r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_pinky_1/BONEONE:r_frnt_pinky_2/BONEONE:r_frnt_pinky_3/BONEONE:r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/BONEONE:r_frnt_cravicre/BONEONE:r_frnt_shourder/BONEONE:r_frnt_erbow/BONEONE:r_frnt_wrist/BONEONE:r_frnt_thmb_1/BONEONE:r_frnt_thmb_2/BONEONE:r_frnt_thmb_3/BONEONE:r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_index_1/r_frnt_index_2/r_frnt_index_3/r_frnt_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_mid_1/r_frnt_mid_2/r_frnt_mid_3/r_frnt_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_pinky_1/r_frnt_pinky_2/r_frnt_pinky_3/r_frnt_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/BONEONE:Spine1/BONEONE:Spine2/BONEONE:Spine3/BONEONE:Spine4_UpDown/BONEONE:chest/r_frnt_cravicre/r_frnt_shourder/r_frnt_erbow/r_frnt_wrist/r_frnt_thmb_1/r_frnt_thmb_2/r_frnt_thmb_3/r_frnt_thmb_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_index_1/r_back_index_2/r_back_index_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_mid_1/r_back_mid_2/r_back_mid_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_pinky_1/r_back_pinky_2/r_back_pinky_3/r_back_pinky_4/r_back_pinky_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_ring_1/r_back_ring_2/r_back_ring_3/r_back_ring_4/r_back_ring_end
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2
+        weight: 1
+      - path: BONEONE:GreenFrog_Root/BONEONE:COG/r_bck_cravicre/r_bck_shourder/r_bck_erbow/r_bck_wri/r_back_thumb_1/r_back_thumb_2/r_back_thumb_end
+        weight: 1
+      - path: CL_CL_froglower
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.35
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: BONEONE:GreenFrog_Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

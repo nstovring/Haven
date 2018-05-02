@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Rock_12_Layers_NoTesselation_4L
   m_Shader: {fileID: 4800000, guid: 81d02e8644315b742b154842a3a2f98c, type: 3}
@@ -518,6 +518,7 @@ Material:
     - _Thickness1: 1
     - _Thickness2: 1
     - _Thickness3: 1
+    - _TransmissionEnable: 1
     - _TransparentSortPriority: 0
     - _UVBase0: 0
     - _UVBase1: 0
@@ -539,6 +540,7 @@ Material:
     - _UseHeightBasedBlend: 0
     - _UseMainLayerInfluence: 1
     - _VertexColorMode: 2
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestMode: 8
     - _ZWrite: 1
     m_Colors:
