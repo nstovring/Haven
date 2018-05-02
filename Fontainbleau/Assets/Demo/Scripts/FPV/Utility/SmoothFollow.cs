@@ -23,6 +23,18 @@ namespace UnityStandardAssets.Utility
 		// Use this for initialization
 		void Start() { }
 
+
+        void CheckBehind(out float distance)
+        {
+            distance = 2;
+            Ray ray = new Ray(transform.position, -transform.forward);
+            RaycastHit hit;
+            if(Physics.Raycast(ray,out hit, 2f))
+            {
+                distance = hit.distance;
+            }
+        }
+
 		// Update is called once per frame
 		void LateUpdate()
 		{
@@ -40,6 +52,8 @@ namespace UnityStandardAssets.Utility
 			// Damp the rotation around the y-axis
 			currentRotationAngle = Mathf.LerpAngle(currentRotationAngle, wantedRotationAngle, rotationDamping * Time.deltaTime);
 
+            //float hitDistance = 0;
+            //CheckBehind(out hitDistance);
 			// Damp the height
 			currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping * Time.deltaTime);
 

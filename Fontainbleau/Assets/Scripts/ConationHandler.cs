@@ -49,6 +49,14 @@ public class ConationHandler : MonoBehaviour {
         car.gameObject.SetActive(true);
         carStateSwitcher.isActive = true;
     }
+
+    public void SwitchToCave3State()
+    {
+        GameStateHandler.Instance.GoToState(GameStateHandler.GameState.Cave3);
+        car.gameObject.SetActive(true);
+        caveBlocker.gameObject.SetActive(false);
+    }
+
     public KeyCode ActivateHelperKeyCode;
     public KeyCode DeActivateHelperKeyCode;
 
@@ -67,6 +75,13 @@ public class ConationHandler : MonoBehaviour {
             GameStateHandler.Instance.DeActivateHelper();
             positivetimer = 0;
         }
+
+        if (Input.GetKeyUp(KeyCode.O))
+        {
+            //DeActivate helpers
+            SwitchToCave3State();
+        }
+
         if (!isActive)
             return;
 

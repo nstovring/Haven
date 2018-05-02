@@ -73,7 +73,10 @@ public class GameStateHandler : MonoBehaviour {
             case GameState.Cave3:
                 break;
             case GameState.ShishaRoom:
+                //play end monologue
+                yield return StartCoroutine(screenFlasher.FlashTo(Color.black));
                 //End game
+                Application.Quit();
                 break;
         }
     }

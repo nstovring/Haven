@@ -46,6 +46,19 @@ public class ScreenFlasher : MonoBehaviour {
         }
     }
 
+    public IEnumerator FlashTo(Color color)
+    {
+        Color flashColor = color;
+        flashColor.a = 0;
+        while (screenFlashImage.color.a < 1)
+        {
+            flashColor.a += flashSpeed * 10 * Time.deltaTime;
+            screenFlashImage.color = flashColor;
+            yield return new WaitForEndOfFrame();
+        }
+    }
+
+
     public IEnumerator FlashFrom()
     {
         Color flashColor = new Color(1, 1, 1, 1);

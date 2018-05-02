@@ -25,6 +25,8 @@ public class GameStateSwitcher : MonoBehaviour {
     {
         foreach (var item in activateTransforms)
         {
+            if (item.GetComponent<GameStateSwitcher>() != null)
+                item.GetComponent<GameStateSwitcher>().isActive = true;
             item.gameObject.SetActive(true);
         }
     }
@@ -33,6 +35,8 @@ public class GameStateSwitcher : MonoBehaviour {
     {
         foreach (var item in deactivateTransforms)
         {
+            if (item.GetComponent<GameStateSwitcher>() != null)
+                item.GetComponent<GameStateSwitcher>().isActive = false;
             item.gameObject.SetActive(false);
         }
     }
