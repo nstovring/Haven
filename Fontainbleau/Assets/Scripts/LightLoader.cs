@@ -22,13 +22,13 @@ public class LightLoader : MonoBehaviour {
         switch (l_settings)
         {
             case LightSettings.Day:
-                currentLightBuildIndex = 3;
+                currentLightBuildIndex = 1;
                 break;
             case LightSettings.Night:
-                currentLightBuildIndex = 4;
+                currentLightBuildIndex = 2;
                 break;
             case LightSettings.Sunset:
-                currentLightBuildIndex = 5;
+                currentLightBuildIndex = 3;
                 break;
         }
         return currentLightBuildIndex;

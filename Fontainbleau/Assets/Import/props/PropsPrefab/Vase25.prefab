@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33985360324298482}
   - component: {fileID: 23574025674051886}
   - component: {fileID: 95479176389939116}
+  - component: {fileID: 114760028622568816}
   m_Layer: 0
   m_Name: Vase25
   m_TagString: Untagged
@@ -106,3 +107,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114760028622568816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984717006422754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b3642bea1270a448ab6f85f0efdc89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_selected: 0
+  m_lookedAt: 0
+  postProcessPrefab: {fileID: 4194107804544924, guid: 7cf74b7da04b06c41b131410c2c6c950,
+    type: 2}
+  description: 

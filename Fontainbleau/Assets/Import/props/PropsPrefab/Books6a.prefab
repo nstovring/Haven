@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4036613014611234}
   - component: {fileID: 33838777747481962}
   - component: {fileID: 23131480930562526}
+  - component: {fileID: 114835625850671076}
   m_Layer: 0
   m_Name: Books6a
   m_TagString: Untagged
@@ -85,3 +86,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1247953992140176}
   m_Mesh: {fileID: 4300000, guid: df4ec166ed57a1a40b2d638074f55a6c, type: 3}
+--- !u!114 &114835625850671076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247953992140176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b3642bea1270a448ab6f85f0efdc89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_selected: 0
+  m_lookedAt: 0
+  postProcessPrefab: {fileID: 4194107804544924, guid: 7cf74b7da04b06c41b131410c2c6c950,
+    type: 2}
+  description: 

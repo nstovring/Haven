@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour {
 
     const int PlayerScene = 9;
-    const int Forest = 10;
-    const int Transition = 11;
-    const int CourtandShisha = 12;
+    const int Forest = 4;
+    const int Transition = 5;
+    const int CourtandShisha = 6;
     public List<int> toLoadSceneNames;
     public List<int> toUnLoadsceneNames;
 

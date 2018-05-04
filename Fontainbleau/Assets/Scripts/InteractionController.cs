@@ -61,7 +61,8 @@ public class InteractionController : MonoBehaviour {
             {
                 print("I'm looking at " + hit.transform.name);
                 m_SelectedObject = hit.transform.GetComponent<InteractableObject>();
-             
+                if (m_SelectedObject == null)
+                    return false;
                 return true;
             }
             print("I'm looking at nothing!");
@@ -110,6 +111,8 @@ public class InteractionController : MonoBehaviour {
     public float speed = 1f;
     IEnumerator MoveObjectClose()
     {
+        SetplayerMovement(false);
+
         m_SelectedObject.m_selected = true;
         objectOriginalPos = m_SelectedObject.transform.position;
         objectOriginalRotation = m_SelectedObject.transform.rotation;
@@ -148,25 +151,39 @@ public class InteractionController : MonoBehaviour {
             m_SelectedObject.transform.position = (position);
             yield return new WaitForEndOfFrame();
         }
-
+        SetplayerMovement(true);
         m_SelectedObject = null;
     }
 
     // Update is called once per frame
+    IEnumerator MoveObject()
+    {
+        if (m_SelectedObject.stateChanger)
+        {
+            yield return StartCoroutine(MoveObjectClose());
+            m_SelectedObject.gameStateSwitcher.SwitchState();
+            yield return StartCoroutine(RotateLerp(m_SelectedObject.transform, objectOriginalRotation));
+            yield return StartCoroutine(ReturnObject());
+        }
+        else
+        {
+            yield return StartCoroutine(MoveObjectClose());
+        }
+    }
+    
+
     void Update () {
         ViewObject();
         if (Input.GetMouseButtonUp(0) && !interactionMode)
         {
             if (SelectObject())
             {
-                SetplayerMovement(false);
                 StartCoroutine(MoveObjectClose());
             }
         }
 
         if (Input.GetMouseButtonUp(1) && m_SelectedObject != null)
         {
-            SetplayerMovement(true);
             StartCoroutine(RotateLerp(m_SelectedObject.transform, objectOriginalRotation));
             StartCoroutine(ReturnObject());
         }

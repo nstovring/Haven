@@ -47,7 +47,7 @@ public class GameStateSwitcher : MonoBehaviour {
         {
             for (int i = 0; i < activateTransforms.Count; i++)
             {
-                Gizmos.color = Color.red;
+                Gizmos.color = Color.blue;
                 Gizmos.DrawLine(activateTransforms[i].position, transform.position);
             }
            
@@ -57,10 +57,19 @@ public class GameStateSwitcher : MonoBehaviour {
         {
             for (int i = 0; i < deactivateTransforms.Count; i++)
             {
-                Gizmos.color = Color.blue;
+                Gizmos.color = Color.red;
                 Gizmos.DrawLine(deactivateTransforms[i].position, transform.position);
             }
         }
+    }
+
+    public void SwitchState()
+    {
+        StartCoroutine(GameStateHandler.Instance.GoToState(GoToState));
+        ActivateObjects();
+        DeActivateObjects();
+        transform.GetComponent<Collider>().enabled = false;
+        isActive = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -69,11 +78,7 @@ public class GameStateSwitcher : MonoBehaviour {
             return;
         if (other.transform.tag == "Player")
         {
-            StartCoroutine(GameStateHandler.Instance.GoToState(GoToState));
-            ActivateObjects();
-            DeActivateObjects();
-            transform.GetComponent<Collider>().enabled = false;
-            isActive = false;
+            SwitchState();
         }
     }
 }

@@ -18,6 +18,7 @@ public class FrogController : MonoBehaviour {
     public float upwardsModifier = 1;
     public float backwardsTopSpeed = 5;
     public float backwardsSpeed = 3;
+    public float rotationSpeed = 2;
 
     Quaternion rotation = Quaternion.identity;
     private float groundedDistance;
@@ -52,10 +53,10 @@ public class FrogController : MonoBehaviour {
         bool jumpDown = Input.GetKey(KeyCode.Space);
         animator.SetFloat("Speed",1);
         animator.SetBool("IsGrounded", isGrounded());
-        if (isGrounded())
+        if (isGrounded() || rb.velocity.magnitude < 0)
         {
             animator.SetFloat("Speed", 0);
-            rotation *= Quaternion.Euler(new Vector3(0, HSpeed, 0));
+            rotation *= Quaternion.Euler(new Vector3(0, HSpeed * rotationSpeed, 0));
             rb.MoveRotation(rotation);
 
             if (jumpDown)

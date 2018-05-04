@@ -13,6 +13,9 @@ public class InteractableObject : MonoBehaviour {
 
     public string description = "";
 
+    public bool stateChanger = false;
+    public GameStateSwitcher gameStateSwitcher;
+
     // Use this for initialization
     void Start () {
         transform.tag = "InteractableObject";
