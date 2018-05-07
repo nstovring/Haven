@@ -162,11 +162,15 @@ public class InteractionController : MonoBehaviour {
         {
             yield return StartCoroutine(MoveObjectClose());
             m_SelectedObject.gameStateSwitcher.SwitchState();
+            if(m_SelectedObject.dplayer!= null)
+            m_SelectedObject.dplayer.PlayDialogue();
             yield return StartCoroutine(RotateLerp(m_SelectedObject.transform, objectOriginalRotation));
             yield return StartCoroutine(ReturnObject());
         }
         else
         {
+            if (m_SelectedObject.dplayer != null)
+                m_SelectedObject.dplayer.PlayDialogue();
             yield return StartCoroutine(MoveObjectClose());
         }
     }
@@ -178,7 +182,7 @@ public class InteractionController : MonoBehaviour {
         {
             if (SelectObject())
             {
-                StartCoroutine(MoveObjectClose());
+                StartCoroutine(MoveObject());
             }
         }
 

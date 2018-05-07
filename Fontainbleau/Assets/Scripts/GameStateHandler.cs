@@ -27,8 +27,9 @@ public class GameStateHandler : MonoBehaviour {
 
     internal IEnumerator GoToState(GameState goToState)
     {
+        gameState = goToState;
         //load appropriate scene
-        if(intialize)
+        if (intialize)
         yield return StartCoroutine(sceneLoader.LoadScenesForState(goToState));
 
         //if (!initialized)
@@ -81,15 +82,25 @@ public class GameStateHandler : MonoBehaviour {
         }
     }
 
+    public GameState GetGameState()
+    {
+        return gameState;
+    }
+
+    public AudioClip introClip;
+    public String introClipText;
   
 	// Use this for initialization
 	IEnumerator Start () {
         Instance = this;
         Player = GameObject.FindGameObjectWithTag("Player").transform;
 
-
+        AudioManager.m_Owner = AudioManager;
         //load all scenes
         //yield return sceneLoader.LoadAndUnloadAllScenes();
+        QueueAudioClip(introClip, introClip.length);
+        QueueAudioSubtitle(introClipText, introClip.length);
+        PlayAudioSubtitleSequence();
         yield return StartCoroutine(GoToState(gameState));
     }
 

@@ -27,8 +27,8 @@ public class AudioManager : MonoBehaviour {
         m_InternalCoroutine = m_Owner.StartCoroutine(Process());
     }
 
-    MonoBehaviour m_Owner = null;
-    private IEnumerator Process()
+    public MonoBehaviour m_Owner = null;
+    public IEnumerator Process()
     {
         while (true)
         {

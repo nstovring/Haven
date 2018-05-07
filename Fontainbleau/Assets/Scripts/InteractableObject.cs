@@ -14,8 +14,9 @@ public class InteractableObject : MonoBehaviour {
     public string description = "";
 
     public bool stateChanger = false;
+    public bool isFrogTransforms = false;
     public GameStateSwitcher gameStateSwitcher;
-
+    public DialoguePlayer dplayer;
     // Use this for initialization
     void Start () {
         transform.tag = "InteractableObject";

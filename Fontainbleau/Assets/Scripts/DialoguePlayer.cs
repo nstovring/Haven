@@ -7,6 +7,10 @@ public class DialoguePlayer : MonoBehaviour {
     private float secondDelay;
     public List<string> dialogueText;
     public bool isActive = true;
+
+    public List<float> delays;
+
+
     public void Start()
     {
         if (audioClip == null)
@@ -18,6 +22,16 @@ public class DialoguePlayer : MonoBehaviour {
         //secondDelay = audioClip.length;
     }
 
+    public void PlayDialogue()
+    {
+        for (int i = 0; i < audioClip.Count; i++)
+        {
+            GameStateHandler.Instance.QueueAudioClip(audioClip[i], audioClip[i].length + delays[i]);
+            GameStateHandler.Instance.QueueAudioSubtitle(dialogueText[i], audioClip[i].length + delays[i]);
+        }
+        GameStateHandler.Instance.PlayAudioSubtitleSequence();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (!isActive)
@@ -26,8 +40,8 @@ public class DialoguePlayer : MonoBehaviour {
         {
             for (int i = 0; i < audioClip.Count; i++)
             {
-                GameStateHandler.Instance.QueueAudioClip(audioClip[i], audioClip[i].length);
-                GameStateHandler.Instance.QueueAudioSubtitle(dialogueText[i], audioClip[i].length);
+                GameStateHandler.Instance.QueueAudioClip(audioClip[i], audioClip[i].length + delays[i]);
+                GameStateHandler.Instance.QueueAudioSubtitle(dialogueText[i], audioClip[i].length + delays[i]);
             }
             GameStateHandler.Instance.PlayAudioSubtitleSequence();
             transform.GetComponent<Collider>().enabled = false;
